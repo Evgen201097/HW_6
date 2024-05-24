@@ -39,6 +39,7 @@ public class Main {
         int salary = 29000;
         int total = 0;
         for (int i = 0; i < 12; i++) {
+            total = total + total/100;
             total = total + salary;
         }
         System.out.println("Месяц " + salary + " , сумма накоплений равна " + total + " рублей");
@@ -47,8 +48,8 @@ public class Main {
         int salary1 = 29000;
         int total1 = 1;
         for (int i = 1; i < 13; i++) {
-            total1 = total1 + total1 / 100;
-            total1 = total + salary;
+            total1 = total1 + total1/100;
+            total1 = total1 + salary;
             System.out.println(i + " Месяц " + total1);
         }
         System.out.println("Месяц " + salary1 + " , сумма накоплений равна " + total1 + " рублей");
